@@ -125,6 +125,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.lineageos.aperture,org.lineageos.aperture.dev \
+    vendor.camera.aux.packagelist=org.lineageos.aperture,org.lineageos.aperture.dev
+
 # Charging
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.cp.fcc_main_ua=400000 \
@@ -238,6 +242,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AliothAperture \
     AliothCarrierConfig \
     AliothFrameworks \
     AliothNfc \
