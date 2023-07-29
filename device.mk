@@ -92,7 +92,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.btstack.enable.lpa=true \
     persist.vendor.btstack.enable.twsplus=false \
-    persist.vendor.bt.a2dp.aac_whitelist=false
+    persist.vendor.bt.a2dp.aac_whitelist=false \
+    ro.reloaded.device_maintainer=NotZeetaa \
+    ro.reloaded.device_maintainer_url=https://t.me/NotZeetaa
 
 # Boot
 PRODUCT_PACKAGES += \
